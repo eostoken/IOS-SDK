@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C5BC2A0224B272B0096D195 /* EosTokenAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C5BC29A224B272B0096D195 /* EosTokenAPI.m */; };
+		0C5BC2A1224B272B0096D195 /* EosTokenResp.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C5BC29C224B272B0096D195 /* EosTokenResp.m */; };
+		0C5BC2A2224B272B0096D195 /* EosTokenReq.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C5BC29E224B272B0096D195 /* EosTokenReq.m */; };
+		A8234E0921B64D8D00E96FD4 /* BlockchainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8234E0821B64D8D00E96FD4 /* BlockchainTableViewController.m */; };
+		A8FEA8E7215B874F00BB0729 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8FEA8E6215B874F00BB0729 /* AppDelegate.m */; };
+		A8FEA8ED215B874F00BB0729 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8FEA8EB215B874F00BB0729 /* Main.storyboard */; };
+		A8FEA8EF215B875100BB0729 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8FEA8EE215B875100BB0729 /* Assets.xcassets */; };
+		A8FEA8F2215B875100BB0729 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8FEA8F0215B875100BB0729 /* LaunchScreen.storyboard */; };
+		A8FEA8F5215B875100BB0729 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8FEA8F4215B875100BB0729 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0C5BC29A224B272B0096D195 /* EosTokenAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EosTokenAPI.m; sourceTree = "<group>"; };
+		0C5BC29B224B272B0096D195 /* EosTokenReq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EosTokenReq.h; sourceTree = "<group>"; };
+		0C5BC29C224B272B0096D195 /* EosTokenResp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EosTokenResp.m; sourceTree = "<group>"; };
+		0C5BC29D224B272B0096D195 /* EosTokenAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EosTokenAPI.h; sourceTree = "<group>"; };
+		0C5BC29E224B272B0096D195 /* EosTokenReq.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EosTokenReq.m; sourceTree = "<group>"; };
+		0C5BC29F224B272B0096D195 /* EosTokenResp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EosTokenResp.h; sourceTree = "<group>"; };
+		A8234E0721B64D8D00E96FD4 /* BlockchainTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockchainTableViewController.h; sourceTree = "<group>"; };
+		A8234E0821B64D8D00E96FD4 /* BlockchainTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockchainTableViewController.m; sourceTree = "<group>"; };
+		A8FEA8E2215B874F00BB0729 /* EosTokenDemos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EosTokenDemos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8FEA8E5215B874F00BB0729 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A8FEA8E6215B874F00BB0729 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A8FEA8EC215B874F00BB0729 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A8FEA8EE215B875100BB0729 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A8FEA8F1215B875100BB0729 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A8FEA8F3215B875100BB0729 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8FEA8F4215B875100BB0729 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8FEA8DF215B874F00BB0729 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C5BC299224B272B0096D195 /* EosTokenSDK */ = {
+			isa = PBXGroup;
+			children = (
+				0C5BC29A224B272B0096D195 /* EosTokenAPI.m */,
+				0C5BC29B224B272B0096D195 /* EosTokenReq.h */,
+				0C5BC29C224B272B0096D195 /* EosTokenResp.m */,
+				0C5BC29D224B272B0096D195 /* EosTokenAPI.h */,
+				0C5BC29E224B272B0096D195 /* EosTokenReq.m */,
+				0C5BC29F224B272B0096D195 /* EosTokenResp.h */,
+			);
+			path = EosTokenSDK;
+			sourceTree = SOURCE_ROOT;
+		};
+		A8234E0521B64D4300E96FD4 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A8234E0721B64D8D00E96FD4 /* BlockchainTableViewController.h */,
+				A8234E0821B64D8D00E96FD4 /* BlockchainTableViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A8FEA8D9215B874F00BB0729 = {
+			isa = PBXGroup;
+			children = (
+				A8FEA8E4215B874F00BB0729 /* EosTokenDemos */,
+				A8FEA8E3215B874F00BB0729 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A8FEA8E3215B874F00BB0729 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8FEA8E2215B874F00BB0729 /* EosTokenDemos.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8FEA8E4215B874F00BB0729 /* EosTokenDemos */ = {
+			isa = PBXGroup;
+			children = (
+				0C5BC299224B272B0096D195 /* EosTokenSDK */,
+				A8234E0521B64D4300E96FD4 /* ViewControllers */,
+				A8FEA8E5215B874F00BB0729 /* AppDelegate.h */,
+				A8FEA8E6215B874F00BB0729 /* AppDelegate.m */,
+				A8FEA8EB215B874F00BB0729 /* Main.storyboard */,
+				A8FEA8EE215B875100BB0729 /* Assets.xcassets */,
+				A8FEA8F0215B875100BB0729 /* LaunchScreen.storyboard */,
+				A8FEA8F3215B875100BB0729 /* Info.plist */,
+				A8FEA8F4215B875100BB0729 /* main.m */,
+			);
+			path = EosTokenDemos;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8FEA8E1215B874F00BB0729 /* EosTokenDemos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8FEA8F8215B875100BB0729 /* Build configuration list for PBXNativeTarget "EosTokenDemos" */;
+			buildPhases = (
+				A8FEA8DE215B874F00BB0729 /* Sources */,
+				A8FEA8DF215B874F00BB0729 /* Frameworks */,
+				A8FEA8E0215B874F00BB0729 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EosTokenDemos;
+			productName = MathWalletDemos;
+			productReference = A8FEA8E2215B874F00BB0729 /* EosTokenDemos.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8FEA8DA215B874F00BB0729 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Eos Token";
+				TargetAttributes = {
+					A8FEA8E1215B874F00BB0729 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = A8FEA8DD215B874F00BB0729 /* Build configuration list for PBXProject "EosTokenDemos" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A8FEA8D9215B874F00BB0729;
+			productRefGroup = A8FEA8E3215B874F00BB0729 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8FEA8E1215B874F00BB0729 /* EosTokenDemos */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8FEA8E0215B874F00BB0729 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8FEA8F2215B875100BB0729 /* LaunchScreen.storyboard in Resources */,
+				A8FEA8EF215B875100BB0729 /* Assets.xcassets in Resources */,
+				A8FEA8ED215B874F00BB0729 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8FEA8DE215B874F00BB0729 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8234E0921B64D8D00E96FD4 /* BlockchainTableViewController.m in Sources */,
+				A8FEA8F5215B875100BB0729 /* main.m in Sources */,
+				0C5BC2A0224B272B0096D195 /* EosTokenAPI.m in Sources */,
+				0C5BC2A1224B272B0096D195 /* EosTokenResp.m in Sources */,
+				0C5BC2A2224B272B0096D195 /* EosTokenReq.m in Sources */,
+				A8FEA8E7215B874F00BB0729 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A8FEA8EB215B874F00BB0729 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8FEA8EC215B874F00BB0729 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A8FEA8F0215B875100BB0729 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8FEA8F1215B875100BB0729 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A8FEA8F6215B875100BB0729 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A8FEA8F7215B875100BB0729 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8FEA8F9215B875100BB0729 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VYQ3KP632S;
+				INFOPLIST_FILE = EosTokenDemos/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eostoken.sdk.ios.EosTokenDemos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A8FEA8FA215B875100BB0729 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VYQ3KP632S;
+				INFOPLIST_FILE = EosTokenDemos/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eostoken.sdk.ios.EosTokenDemos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8FEA8DD215B874F00BB0729 /* Build configuration list for PBXProject "EosTokenDemos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8FEA8F6215B875100BB0729 /* Debug */,
+				A8FEA8F7215B875100BB0729 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8FEA8F8215B875100BB0729 /* Build configuration list for PBXNativeTarget "EosTokenDemos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8FEA8F9215B875100BB0729 /* Debug */,
+				A8FEA8FA215B875100BB0729 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8FEA8DA215B874F00BB0729 /* Project object */;
+}
